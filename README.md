@@ -11,7 +11,7 @@
 
 ### Links
 
-Solution URL: [Add solution URL here](https://your-solution-url.com)
+Solution URL: [Live demoe](https://qr-code-card-component-tawny.vercel.app/)
 
 ### Built with
 
