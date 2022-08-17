@@ -23,18 +23,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                height: 100vh;
+                min-height: 100vh;
                 background: hsl(212, 45%, 89%);
-            }
-
-            .content {
-                display: grid;
-                gap: 40px;
             }
 
             .card {
                 background: hsl(0, 0%, 100%);
-                padding: 12px;
+                padding: 14px;
                 border-radius: 20px;
                 text-align: center;
                 max-width: 300px;
@@ -60,6 +55,7 @@
             .attribution {
                 font-size: 11px;
                 text-align: center;
+                margin-top: 40px;
             }
             .attribution a {
                 color: hsl(228, 45%, 44%);
@@ -67,7 +63,7 @@
         </style>
     </head>
     <body>
-        <div class="content">
+        <main>
             <div class="card">
                 <img src="images/image-qr-code.png" />
                 <div class="card-text">
@@ -85,8 +81,9 @@
                     href="https://www.frontendmentor.io?ref=challenge"
                     target="_blank"
                     >Frontend Mentor</a
-                >. Coded by <a href="#">Trezzmann</a>.
+                >. Coded by
+                <a href="https://github.com/Trezzmann">Trezzmann</a>.
             </div>
-        </div>
+        </main>
     </body>
 </html>
